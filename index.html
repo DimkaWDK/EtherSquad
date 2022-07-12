@@ -24,7 +24,6 @@ body, html {
 body {
 	background-color: #ffffff;
 }
-
 header {
 	width: 100%;
 	height: 60px;
@@ -34,24 +33,14 @@ header {
 	background-color: #2e3a44;
 }
 
-header #logo span {
-	cursor: pointer;
-	color: #fff;
-	font-size: 2em;
-	line-height: 45px;
-	margin-left: 8px;
-	font-family: Suez One;
-}
 
-
-
-#logo {
+@media (min-width: 1025px) {
+	#logo {
 	float:left;
 	width: 30%;
 	font-size: 1.5em;
-}
-
-#about {
+    }
+    #about {
 	width: 70%;
 	float: right;
 	text-align: center;
@@ -59,13 +48,54 @@ header #logo span {
 	font-size: 2em;
 	line-height: 45px;
 	margin-bottom: 12px;
-}
-
-#about > a {color: #fff;}
-
-#about > a:not(:last-child) {
+    }
+    header #logo span {
+	cursor: pointer;
+	color: #fff;
+	font-size: 2em;
+	line-height: 45px;
+	margin-left: 8px;
+	font-family: Suez One;
+    }
+    #about > a {
+    	color: #fff;
+    }
+    #about > a:not(:last-child) {
 	margin-right: 7%; 
+    }
 }
+
+@media (max-width: 1024px) {
+	#logo {
+	float:left;
+	width: 30%;
+	font-size: 2em;
+    }
+    #about {
+	width: 70%;
+	float: right;
+	text-align: center;
+	font-family: Oswald;
+	font-size: 1.1em;
+	line-height: 45px;
+	margin-bottom: 12px;
+    }
+    header #logo span {
+	cursor: pointer;
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 45px;
+	margin-left: 8px;
+	font-family: Suez One;
+    }
+    #about > a {
+    	color: #fff;
+    }
+    #about > a:not(:last-child) {
+	margin-right: 5%; 
+    }
+}
+
 
 #top {
 	width: 100%;
