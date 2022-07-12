@@ -1,20 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Eternity</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	<style type="text/css">
-		body	{
-			background-image: url("");
-			background-attachment: fixed;
-		}
-		img {
-    border: 0px solid #ffffff;
-   }
+	<link rel="stylesheet" type="css/main.css">
+	<style>
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Suez+One&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+header {
+	width: 100%;
+	height: 60px;
+	padding: 12px 0.5% 0px 0.5%;
+	float: left;
+	position: fixed;
+	background-color: #2e3a44;
+}
+
+header #logo span {
+	cursor: pointer;
+	color: #fff;
+	font-size: 2em;
+	line-height: 45px;
+	margin-left: 8px;
+	font-family: Suez One;
+}
+
+
+
+#logo {
+	float:left;
+	width: 30%;
+	font-size: 1.5em;
+}
+
+#about {
+	width: 70%;
+	float: right;
+	text-align: center;
+	font-family: Oswald;
+	font-size: 2em;
+	line-height: 45px;
+	margin-bottom: 12px;
+}
+
+#about > a {color: #fff;}
+
+#about > a:not(:last-child) {
+	margin-right: 7%; 
+}
+
+#top {
+	width: 100%;
+	height: 1000px;
+	background-image: url(https://get.wallhere.com/photo/landscape-nature-snow-sunrise-morning-panorama-valley-wilderness-dusk-Alps-plateau-mountain-dawn-season-mountainous-landforms-landform-geographical-feature-mountain-range-32993.jpg);
+	background-blend-mode: multiply;
+	background-size: cover;
+	color: #fff;
+	background-color: #ccc;
+}
+
+a {
+    text-decoration: none;
+}
+
+#top h1 {
+	padding-top: 20%;
+	text-align: center;
+	font-size: 6em;
+	font-family: Suez One;
+}
+
+#top h2 {
+	color: #f2f2f2;
+	text-align: center;
+	font-size: 4em;
+	font-family: Oswald;
+}
+
+
 	</style>
 </head>
 <body>
+	<header>
+		<div id="logo" onclick="slowscroll('#top')">
+			<a href="#"><span>Eternity</span></a>
+		</div>
+		<div id="about">
+			<a href="">Наши Игры</a>
+			<a href="">Контакты</a>
+			<a href="">Коллаборация</a>
+			<a href="">О Нас</a>
+		</div>
+	</header>
+	<div id="top">
+		<h1>Eternity</h1><br><h2>небольшая компания, занимающаяся разработкой инди-игр</h2>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		function slowScroll(id){
+			$('header #logo span').animate({
+				scrollTop: $(id).offset().top
+			}, 500)
+		}
+
+		$(document).on("scroll", function () {
+			if($(window).scrollTop() === 0)
+				$("header").removeClass("fixed");
+			else
+				$("header").attr("class", "fixed");
+		});
+	</script>
 </body>
 </html>
