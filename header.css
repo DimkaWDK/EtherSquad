@@ -16,20 +16,27 @@ header {
 	float: left;
 	position: fixed;
 	background: transparent;
-	/*background-color: #6A5ACD;*/
+	background-color: #6A5ACD;
 }
 
 body {
 	background-color: #fff;
 }
 
+
 	#logo {
 	float:left;
-	width: 30%;
+	width: 40%;
 	font-size: 1.5em;
     }
+    #imglogo {
+    	float: left;
+    	width: 45px;
+    	height: 45px;
+    	line-height: 30px;
+    }
     #about {
-	width: 50%;
+	width: 40%;
 	float: right;
 	text-align: right;
 	padding-right: 2%;

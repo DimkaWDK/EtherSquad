@@ -2,27 +2,34 @@
 <html lang="en">
 <head>
 	<title>Eternity</title>
+	<link rel="icon" type="image/x-icon" href="Eternity.ico">
 	<link rel="stylesheet" href="header.css">		
 	<style>
 			* {
 				padding: 0;
 				margin: 0;
 			}
-			@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
-			* {
-				margin: 0;
-				padding: 0;
-				outline: none;
+			#catalog {
+				padding-top: 7%;
+				padding-left: 2%;
+			}
+			#contain {
+				width: 30%;
+			}
+			#name {
+				color: #fff;
+				font-size: 2em;
+				
 			}
 
-			    body {
-			    	background-image: url(https://img-fotki.yandex.ru/get/231315/47606540.c4/0_127bbe_5e9399d6_orig.gif);
-				    background-attachment: fixed;
-				    background-size: cover;
-				    padding: 0;  
-				    margin: 0;
-			    }
-
+			
+			body {
+			    background-image: url(https://img-fotki.yandex.ru/get/231315/47606540.c4/0_127bbe_5e9399d6_orig.gif);
+				background-attachment: fixed;
+			    background-size: cover;
+			    padding: 0;  
+			    margin: 0;
+			}
 			#top {
 				padding-top: 60px;
 				height: 50%;
@@ -33,7 +40,7 @@
 			#top h1 {
 				color: #fff;
 				letter-spacing: 3px;
-				font-size: 8em;
+				font-size: 12em;
 			}
 			.glow span {
 				transition: all .3s;
@@ -47,7 +54,7 @@
 			}
 			h2 {
 				color: #fff;
-				font-size: 6em;
+				font-size: 5em;
 				text-align: center;
 			    float: center;
 			}
@@ -56,15 +63,16 @@
 <body>
 	<header>
 		<div id="logo">
-			<a href="index.html"><span>Eternity</span></a>
+			<a href="index.html"><img id="imglogo" src="icon.png"><span>Eternity</span></a>
 		</div>
 		<div id="about">
 			<a href="Games.html">Наши Игры</a>
 		</div>
 	</header>
-	<div id="top">
-		<h1 class="glow"><span>Игр пока нет</span></h1><br>
-        </div>
-     <h2 class="glow"><span>Следите за новостями сообщества</span></h2>	
+     <div id="catalog">
+     	<div id="case">
+     		<img src="ПростоАва.png" width="30%" height="30%"><br><span id="name">Название</span>
+     	</div>
+     </div>
 </body>
 </html>
