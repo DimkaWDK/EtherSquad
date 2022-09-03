@@ -1,9 +1,13 @@
 /* Base */
 body {
   line-height: 1.7;
-  color: #4d4d4d;
+  color: #4285B4;
   font-weight: 300;
   font-size: 1rem; }
+
+.gameDescription{
+  color: #fff;
+}
 
 ::-moz-selection {
   background: #000;
@@ -37,7 +41,7 @@ h1, h2, h3, h4, h5,
   color: rgba(0, 0, 0, 0.5); }
 
 .color-white-opacity-5 {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(255, 255, 255, 95%); }
 
 .site-wrap:before {
   -webkit-transition: .3s all ease-in-out;
@@ -169,9 +173,11 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  margin: 0; }
   .bg-image.overlay {
-    position: relative; }
+    position: relative;
+    margin: 0; }
     .bg-image.overlay:after {
       position: absolute;
       content: "";
