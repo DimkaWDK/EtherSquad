@@ -5,6 +5,23 @@ body {
   font-weight: 300;
   font-size: 1rem; }
 
+  @media(min-width: 995px)
+  {
+    #imgab{
+      margin: 0;
+      padding: 0;
+      width: 260px;
+      height: 260px;
+      float: right;
+    }
+  }
+  @media(max-width: 994px)
+  {
+    #imgab{
+      display: none;
+    }
+  }
+
 .gameDescription{
   color: #fff;
 }
