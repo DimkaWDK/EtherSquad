@@ -5,6 +5,9 @@ body {
   font-weight: 300;
   font-size: 1rem; }
 
+  img{
+    margin: 15px;
+  }
   @media(min-width: 995px)
   {
     #imgab{
