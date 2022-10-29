@@ -1,13 +1,25 @@
-/* Base */
 body {
   line-height: 1.7;
   color: #4285B4;
   font-weight: 300;
   font-size: 1rem; }
 
-  img{
+  #Yimg{
     margin: 15px;
   }
+  #Yimg:hover{
+  box-shadow:0 0 15px #fff;
+}
+#Yimg {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+#Yimg:hover{
+     transform:scale(1.2);
+}
   @media(min-width: 995px)
   {
     #imgab{
@@ -30,11 +42,12 @@ body {
 
 ::-moz-selection {
   background: #000;
-  color: #fff; }
+  color: #00b3ff; }
 
 ::selection {
-  background: #000;
-  color: #fff; }
+  color: #00b3ff;
+  background-color: #000;
+}
 
 a {
   -webkit-transition: .3s all ease;
