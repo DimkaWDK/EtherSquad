@@ -7,17 +7,17 @@ body {
   #Yimg{
     margin: 15px;
   }
-  #Yimg:hover{
-  box-shadow:0 0 15px #fff;
-}
 #Yimg {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
     transition: all 1s ease;
 }
 #Yimg:hover{
+     transform:scale(1.2);
+}
+
+#imgab {
+    transition: all 1s ease;
+}
+#imgab:hover{
      transform:scale(1.2);
 }
   @media(min-width: 995px)
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5,
   right: 0;
   bottom: 0;
   opacity: 0;
-  visibility: hidden; }
+  visibility: visible; }
 
 .offcanvas-menu .site-wrap {
   position: absolute;
