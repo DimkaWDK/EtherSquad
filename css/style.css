@@ -4,6 +4,10 @@ body {
   font-weight: 300;
   font-size: 1rem; }
 
+  h2 #underl{
+    text-decoration: underline;
+  }
+
   #Yimg{
     margin: 15px;
   }
