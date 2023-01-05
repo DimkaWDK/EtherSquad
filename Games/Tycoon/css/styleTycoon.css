@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+h4{
+  color: #131313;
+}
 /* line 1, ../../Arafath/CL/December/235. Job board/HTML/scss/_extend.scss */
 .flex-center-start {
   display: -webkit-box;
@@ -25,8 +26,8 @@
 /* Large Mobile :480px. */
 /* line 6, ../../Arafath/CL/December/235. Job board/HTML/scss/theme-default.scss */
 body {
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
+  font-family: "Josefin Sans";
+  font-weight: 30px;
   font-style: normal;
   background: #F5F7FA;
 }
@@ -78,8 +79,8 @@ button {
 
 /* line 40, ../../Arafath/CL/December/235. Job board/HTML/scss/theme-default.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Roboto", sans-serif;
-  color: #191d34;
+  font-family: "Josefin Sans";
+  color: #131313;
 }
 
 /* line 44, ../../Arafath/CL/December/235. Job board/HTML/scss/theme-default.scss */
@@ -106,7 +107,7 @@ li {
 /* line 60, ../../Arafath/CL/December/235. Job board/HTML/scss/theme-default.scss */
 p {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 800;
   line-height: 28px;
   color: #7A838B;
   margin-bottom: 13px;
@@ -195,20 +196,6 @@ h3 {
   background: #f5f5f5;
 }
 
-/* line 131, ../../Arafath/CL/December/235. Job board/HTML/scss/theme-default.scss */
-.bg-img-1 {
-  background-image: url(../img/slider/slider-img-1.jpg);
-}
-
-/* line 134, ../../Arafath/CL/December/235. Job board/HTML/scss/theme-default.scss */
-.bg-img-2 {
-  background-image: url(../img/background-img/bg-img-2.jpg);
-}
-
-/* line 137, ../../Arafath/CL/December/235. Job board/HTML/scss/theme-default.scss */
-.cta-bg-1 {
-  background-image: url(../img/background-img/bg-img-3.jpg);
-}
 
 /* line 142, ../../Arafath/CL/December/235. Job board/HTML/scss/theme-default.scss */
 .overlay {
@@ -436,7 +423,7 @@ h3 {
 /* line 24, ../../Arafath/CL/December/235. Job board/HTML/scss/_btn.scss */
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#F91842+0,fd8e5e+100 */
-  background: #00D363;
+  background: #0095B6;
   color: #fff;
   display: inline-block;
   padding: 13px 29px 13px 29px;
@@ -1382,16 +1369,6 @@ h3 {
     position: relative;
     right: 10px;
   }
-}
-
-/* line 1, ../../Arafath/CL/December/235. Job board/HTML/scss/_slider.scss */
-.slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
-}
-
-/* line 4, ../../Arafath/CL/December/235. Job board/HTML/scss/_slider.scss */
-.slider_bg_2 {
-  background-image: url(../img/banner/banner_2.png);
 }
 
 /* line 7, ../../Arafath/CL/December/235. Job board/HTML/scss/_slider.scss */
@@ -2511,7 +2488,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/235. Job board/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/bradcam.jpg);
 }
 
 /* line 4, ../../Arafath/CL/December/235. Job board/HTML/scss/_bradcam.scss */

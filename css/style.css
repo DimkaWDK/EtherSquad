@@ -1,13 +1,14 @@
 body {
   line-height: 1.7;
-  color: #0095B6;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1rem; }
 
   h2 #underl{
     text-decoration: underline;
   }
-
+  #ppp{
+    font-size: 22px;
+  }
   #Yimg{
     margin: 15px;
   }
@@ -29,9 +30,8 @@ body {
     #imgab{
       margin: 0;
       padding: 0;
-      width: 260px;
-      height: 260px;
-      float: right;
+      width: 420px;
+      height: 420px;
     }
   }
   @media(max-width: 994px)
@@ -62,7 +62,7 @@ a {
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  font-family: Josefin Sans/*"Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"*/; }
 
 .border-2 {
   border-width: 2px; }
@@ -394,7 +394,7 @@ h1, h2, h3, h4, h5,
           margin: 0;
           min-width: 200px; }
   .site-navbar.scrolled {
-    background-color: #fff;
+    background-color: #121212;
     position: fixed;
     width: 100%;
     left: 0;
@@ -415,13 +415,13 @@ h1, h2, h3, h4, h5,
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
     .site-navbar.scrolled .site-menu-toggle {
-      color: #000; }
+      color: #fff; }
     .site-navbar.scrolled .site-navigation .site-menu li a {
-      color: #000; }
+      color: #fff; }
       .site-navbar.scrolled .site-navigation .site-menu li a.active {
         color: #0095B6; }
     .site-navbar.scrolled .site-logo a {
-      color: #000 !important; }
+      color: #fff !important; }
 
 .site-mobile-menu {
   width: 300px;
@@ -429,7 +429,7 @@ h1, h2, h3, h4, h5,
   right: 0;
   z-index: 9000;
   padding-top: 20px;
-  background: #fff;
+  background: #131313;
   height: calc(100vh);
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
@@ -490,7 +490,7 @@ h1, h2, h3, h4, h5,
       padding: 10px 20px;
       display: block;
       position: relative;
-      color: #212529; }
+      color: #fff; }
       .site-mobile-menu .site-nav-wrap a:hover {
         color: #0095B6; }
     .site-mobile-menu .site-nav-wrap li {
@@ -588,7 +588,7 @@ h1, h2, h3, h4, h5,
     color: #fff; }
     @media (max-width: 991.98px) {
       .site-blocks-cover h1 {
-        font-size: 2rem; } }
+        font-size: 1rem; } }
   .site-blocks-cover p {
     color: rgba(255, 255, 255, 95%);
     font-size: 1.2rem;
