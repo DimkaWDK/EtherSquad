@@ -10,20 +10,21 @@ body {
     font-size: 22px;
   }
   #Yimg{
-    margin: 15px;
+    margin: 10px;
   }
+
 #Yimg {
     transition: all 1s ease;
 }
 #Yimg:hover{
-     transform:scale(1.2);
+     transform:scale(1.15);
 }
 
 #imgab {
     transition: all 1s ease;
 }
 #imgab:hover{
-     transform:scale(1.2);
+     transform:scale(1.15);
 }
   @media(min-width: 995px)
   {
